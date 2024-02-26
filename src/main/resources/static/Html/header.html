@@ -1,0 +1,65 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container-fluid">
+      <img src="/photos/1.jpg" class="rounded mx-auto d-block" alt="img">
+      <a class="navbar-brand" href="index.html" style="margin-left: 8px;"> GadgetGalaxy</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="whishlist.html">Wishlist</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="myOrders.html">My Orders</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+              Products
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="http://localhost:8080/Html/mouse.html">Mouse</a></li>
+              <li><a class="dropdown-item" href="http://localhost:8080/Html/processor.html">Processor</a></li>
+              <li><a class="dropdown-item" href="http://localhost:8080/Html/monitor.html">Monitor</a></li>
+              <li><a class="dropdown-item" href="http://localhost:8080/Html/Keyboard.html">Keyboard</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+              Profile
+            </a>
+            <ul class="dropdown-menu">
+              <p>Welcome</p>
+              <div id="signup-login">
+              <p>User Can Signup or Login Here</p>
+              <a href="http://localhost:8080/Html/test.html">
+              <button type="button" class="btn btn-primary btn-sm" >Signup/Login</button></a><br>
+              </div>
+              <div id="username" style="display: none;"><span id="username-text">username</span><br><br>
+                <a href="http://localhost:8080/Html/user-address.html">
+                <button type="button" class="btn btn-primary btn-sm" >Address</button></a>
+                <button type="button" class="btn btn-primary btn-sm" onclick="logoutFuction()">Logout</button>
+              </div>
+              <div id="admin" style="display: none;">
+              <p>Add A product here</p>
+              <a href="http://localhost:8080/Html/add-product.html">
+                <button type="button" class="btn btn-primary btn-sm">Add a product</button></a>
+              </div>
+              
+            </ul>
+          </li>
+        </ul>
+        
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
+            style="background-color: aliceblue;" id="searchbar">
+          <button class="btn btn-outline-success" type="submit" id="searchbtn">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <script>
+  
+  </script>
